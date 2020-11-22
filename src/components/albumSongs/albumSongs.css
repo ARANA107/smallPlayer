@@ -1,0 +1,125 @@
+.albumPane {
+  margin: 20px 0 30px 232px;
+}
+
+.albumImage {
+  width: 30%;
+  float: left;
+  max-width: 240px;
+  margin: 10px;
+}
+
+.albumImage img {
+  width: 240px;
+}
+
+.albumDetails {
+  margin: 10px 10px 10px 35px;
+  padding-left: 10px;
+}
+
+.albumDetails .row {
+  margin: 15px 0px 0px 15px;
+}
+
+.albumDetails .row:nth-child(2),
+.albumDetails .row:nth-child(3) {
+  color: #939393;
+  font-weight: 200;
+}
+
+.tracklist {
+  margin: 0 auto;
+  width: 725px;
+  overflow: auto;
+  margin-bottom: 92px;
+}
+
+.tracklistRow {
+  height: 70px;
+  padding: 15px 10px;
+  list-style: none;
+  margin: 12px;
+  border-radius: 53px;
+  display: inline-block;
+  width: 250px;
+  background-color: #282828;
+  border: solid 1px #88f5aa;
+}
+
+.tracklistRow span {
+  color: #939393;
+  font-weight: 200;
+}
+
+.tracklistRow:hover {
+  background-color: #282828;
+}
+
+.tracklistRow .trackCount {
+  width: 36px;
+  position: relative;
+  margin: 0 auto;
+  height: 30px;
+  left: 3%;
+  top: 12%;
+}
+
+.tracklistRow .trackCount img {
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.tracklistRow:hover .trackCount img {
+  visibility: visible;
+}
+
+.tracklistRow .trackCount span {
+  visibility: visible;
+}
+
+.tracklistRow:hover .trackCount span {
+  visibility: hidden;
+}
+
+.tracklistRow .trackInfo {
+  top: 40%;
+  left: 3%;
+  text-align: center;
+  position: relative;
+}
+
+.tracklistRow .trackInfo span {
+  display: block;
+}
+
+.tracklistRow .trackOptions {
+  width: 5%;
+  float: left;
+  text-align: right;
+}
+
+.tracklistRow .trackOptions img {
+  width: 15px;
+  visibility: hidden;
+}
+
+.tracklistRow:hover .trackOptions img {
+  visibility: visible;
+}
+
+.tracklistRow .trackDuration {
+  width: 12%;
+  height: 20px;
+  float: right;
+}
+
+.tracklistRow .trackInfo .trackName {
+  color: #fff;
+  margin-bottom: 7px;
+}
+
+.currentPlaying {
+  background-color: purple;
+}
