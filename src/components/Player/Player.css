@@ -156,3 +156,10 @@
   font-size: 12px;
   color: #a0a0a0;
 }
+
+.progress {
+  background-color: #a0a0a0;
+  height: 4px;
+  width: 0;
+  border-radius: 2px;
+}
